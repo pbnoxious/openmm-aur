@@ -1,6 +1,6 @@
 pkgbase = openmm
 	pkgdesc = Toolkit for molecular simulation using high performance GPU code
-	pkgver = 7.3.1
+	pkgver = 7.4.2
 	pkgrel = 1
 	url = http://openmm.org/
 	arch = i686
@@ -10,9 +10,12 @@ pkgbase = openmm
 	makedepends = cmake
 	makedepends = swig
 	makedepends = doxygen
+	depends = python
+	depends = python-numpy
+	depends = cython
 	depends = fftw
-	source = https://github.com/pandegroup/openmm/archive/7.3.1.tar.gz
-	sha1sums = 3e2d18d033dbe8bb52867ac1232afb6788bff346
+	source = https://github.com/pandegroup/openmm/archive/7.4.2.tar.gz
+	sha1sums = 40dda055c4f8e254becb53c9c6f2e821a812a9bc
 
 pkgname = openmm
 
